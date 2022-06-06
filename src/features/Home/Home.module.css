@@ -1,0 +1,37 @@
+.home-container{
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+}
+.avatar-container{
+    height:2.8rem;
+    display: inline-block;
+}
+.avatar{
+    height:100%;
+}
+.create-post{
+    display: flex;
+    flex-wrap:wrap;
+}
+.actions{
+    display: flex;
+    justify-content: space-between;
+}
+.secondary-actions{
+    display: flex;
+    gap:1.5rem;
+    align-items: center;
+}
+
+/* Single post */
+.singlepost-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-option{
+    margin-left:auto;
+}
+.post-content{
+
+}

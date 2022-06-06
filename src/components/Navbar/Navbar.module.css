@@ -1,0 +1,12 @@
+.navbar{
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+}
+.avatar-container{
+    height:2.8rem;
+}
+.avatar{
+    height:100%;
+}

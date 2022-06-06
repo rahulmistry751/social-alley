@@ -1,0 +1,16 @@
+.single-suggestion-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.avatar-container{
+    height:2.8rem;
+    display: inline-block;
+}
+.avatar{
+    height:100%;
+}
+.suggestions{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
