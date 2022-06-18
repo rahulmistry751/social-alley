@@ -1,0 +1,7 @@
+.sidebar-menu{
+    display:flex;
+    flex-direction: column;
+}
+.menu-option{
+    padding:1rem .5rem;
+}
