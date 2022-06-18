@@ -1,10 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-body{
-  min-height: 100vh;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
 }
+/* body{
+  min-height: 100vh;
+} */
 :root{
   --bg-color:#F3F4F6;
   --base-bg:#ffffff;
@@ -17,7 +21,7 @@ body{
 }
 .container{
   min-height:100vh;
-  min-width: 769px;
+  min-width: 48rem;
 }
 .cols{
   display: grid;
@@ -26,6 +30,6 @@ body{
 /*Media query */
 @media (min-width: 1536px){
   .container{
-    width:1280px;
+    width:80rem;
   }
 }

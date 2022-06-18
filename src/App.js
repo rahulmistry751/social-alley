@@ -1,22 +1,21 @@
 import { Routes,Route } from "react-router-dom";
-import { Navbar, Sidebar, Suggestions } from "./components";
-import { Bookmarks, Explore,Home } from "./features";
+import { Navbar} from "./components";
+import { Bookmarks, Explore,Home, Profile,Login,Signup} from "./features";
 import './index.css';
 function App() {
   return (
-    <div className="App border-box font-fira bg-background">
+    <div className="App font-fira bg-background">
       <div className="container mx-auto px-4">
         <Navbar/>
-        <div className="cols">
-          {/* <div className="cols-3"> */}
-          <Sidebar/>
+        <div className="sub-container">
           <Routes>
             <Route path="/" element={<Home/>}></Route>
             <Route path="/bookmarks" element={<Bookmarks/>}></Route>
             <Route path="/explore" element={<Explore/>}></Route>
+            <Route path="/profile" element={<Profile/>}/>
+            <Route path="/login" element={<Login/>}/>
+            <Route path="/signup" element={<Signup/>}/>
           </Routes>
-          <Suggestions/>
-          {/* </div> */}
         </div>
       </div>
     </div>

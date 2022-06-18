@@ -1,2 +1,3 @@
 import profilePic from './profile pic.jpg';
-export {profilePic};
+import authHero from './auth-hero.svg';
+export {profilePic,authHero};
